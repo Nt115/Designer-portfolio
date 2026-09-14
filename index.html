@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naqiya Tabassum — Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo">NT</a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__burger" aria-label="Toggle menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="#about"    onclick="toggleMenu()">About</a>
+    <a href="#work"     onclick="toggleMenu()">Work</a>
+    <a href="#services" onclick="toggleMenu()">Services</a>
+    <a href="#contact"  onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Visual Designer · Student at Crescent Institute</p>
+      <h1 class="hero__name">Naqiya<br /><em>Tabassum</em></h1>
+      <p class="hero__tagline">
+        Designing for real contexts — print, editorial, and 3D visualisation, built through university and the Crescent Literary Society.
+      </p>
+      <div class="hero__cta">
+        <a href="#work" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__blob"></div>
+      <div class="hero__initials">NT</div>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE ── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Print Design</span><span>·</span>
+      <span>Event Posters</span><span>·</span>
+      <span>Editorial Graphics</span><span>·</span>
+      <span>Social Media Design</span><span>·</span>
+      <span>3D Terrain Visualisation</span><span>·</span>
+      <span>GIS &amp; Cartography</span><span>·</span>
+      <span>Poetry Layouts</span><span>·</span>
+      <span>Conference Collateral</span><span>·</span>
+      <span>Print Design</span><span>·</span>
+      <span>Event Posters</span><span>·</span>
+      <span>Editorial Graphics</span><span>·</span>
+      <span>Social Media Design</span><span>·</span>
+      <span>3D Terrain Visualisation</span><span>·</span>
+      <span>GIS &amp; Cartography</span><span>·</span>
+      <span>Poetry Layouts</span><span>·</span>
+      <span>Conference Collateral</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+      <div class="about__image-wrap">
+        <div class="about__photo-frame">
+          <!-- 
+            To show your real photo: save the President announcement image 
+            as assets/profile.jpg in the project folder.
+            The image is already styled to display correctly below.
+          -->
+          <div class="about__photo-mock">
+            <div class="about__photo-wm">PRESIDENT</div>
+            <div class="about__photo-wm about__photo-wm--2">PRESIDENT</div>
+            <div class="about__photo-wm about__photo-wm--3">SIDENT</div>
+            <div class="about__photo-wm about__photo-wm--4">SIDENT</div>
+            <div class="about__photo-frame-border"></div>
+            <div class="about__photo-person">
+              <!-- Pink hijab, glasses — stylised representation -->
+              <div class="about__photo-head">
+                <div class="about__photo-face"></div>
+                <div class="about__photo-hijab"></div>
+                <div class="about__photo-glasses"></div>
+              </div>
+              <div class="about__photo-body"></div>
+            </div>
+            <div class="about__photo-nameplate">
+              <span>NAQIYA TABASSUM</span>
+              <div class="about__photo-dots">· · · · · ·</div>
+            </div>
+            <div class="about__photo-badge">
+              <span>CLS</span>
+              <small>SINCE 2004</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section__label">About Me</p>
+        <h2 class="section__heading">Design is how I<br /><em>found my voice</em></h2>
+        <p>
+          Hi, I'm Naqiya — a designer and final-year student at B.S. Abdur Rahman
+          Crescent Institute of Science &amp; Technology, Chennai. My design work
+          has grown entirely through university — from academic projects to leading
+          the visual identity of the Crescent Literary Society as its President.
+        </p>
+        <p>
+          I work across editorial and social media graphics, print and event
+          collateral, and 3D geospatial visualisation — an unusual combination that
+          reflects both my design instincts and my academic background. Every project
+          here is something I made, for a real context, with real intent behind it.
+        </p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number" style="font-size:1.3rem;letter-spacing:0.05em;">CLS</span>
+            <span class="stat__label">President, Literary Society</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">14+</span>
+            <span class="stat__label">Design Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">3</span>
+            <span class="stat__label">Design Disciplines</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn--primary">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WORK ── -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Selected Work</p>
+        <h2 class="section__heading">Projects &amp; Case Studies</h2>
+      </div>
+
+      <div class="work__filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="print">Print</button>
+        <button class="filter-btn" data-filter="editorial">Editorial</button>
+        <button class="filter-btn" data-filter="gis">3D / GIS</button>
+      </div>
+
+      <div class="work__grid" id="workGrid">
+
+        <!-- ── REAL PROJECT 1: ICRAMS Brochure ── -->
+        <article class="project-card" data-category="print">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--icrams">
+              <div class="mock-icrams">
+                <div class="mock-icrams__header">
+                  <span class="mock-icrams__logo">BMC</span>
+                  <span class="mock-icrams__sub">BHAKTAVATSALAM MEMORIAL COLLEGE</span>
+                </div>
+                <div class="mock-icrams__title">ICRAMS 2025</div>
+                <div class="mock-icrams__subtitle">International Conference on<br/>Recent Advancements in<br/>Multidisciplinary Sciences</div>
+                <div class="mock-icrams__date">3rd &amp; 4th March, 2025</div>
+                <div class="mock-icrams__icons">⚛ π 🧬 ⚗</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#icrams-modal" class="btn btn--outline btn--sm" onclick="openModal('icrams'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Print · Brochure</span>
+            <h3>ICRAMS 2025 — Conference Brochure</h3>
+            <p>Tri-fold academic conference brochure for Bhaktavatsalam Memorial College. Features a dark teal palette, scientific illustration, structured information hierarchy, and QR-based registration flow.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 2: LOVE Poster (Red) ── -->
+        <article class="project-card" data-category="print">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--love-red">
+              <div class="mock-love" style="--lc:#b71c1c;">
+                <div class="mock-love__grid">
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#b71c1c;">L</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#7b0000,#c62828);"></div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#d4a0a0,#f0c0b0);"></div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#8b0000,#d32f2f);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#b71c1c;">O</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#4a0000,#b71c1c);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#b71c1c;">V</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#c0506a,#e88098);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#b71c1c;">E</div>
+                </div>
+                <div class="mock-love__caption">A poetry collection · Crescent Literary Society</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('love-red'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Print · Poster Design</span>
+            <h3>LOVE — Poetry Collection Poster (Red Edition)</h3>
+            <p>3×3 mosaic grid poster alternating bold typographic tiles and photo tiles spelling "LOVE" in crimson red. Designed for the office bearers edition of the Crescent Literary Society poetry collection.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 3: LOVE Poster (Pink) ── -->
+        <article class="project-card" data-category="print">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--love-pink">
+              <div class="mock-love" style="--lc:#d81b60;">
+                <div class="mock-love__grid">
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#d81b60;">L</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#c2185b,#f06292);"></div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#880e4f,#e91e8c);"></div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#ad1457,#f48fb1);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#d81b60;">O</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#b0838a,#d4a0a8);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#d81b60;">V</div>
+                  <div class="mock-love__tile mock-love__tile--photo" style="background:linear-gradient(135deg,#a0706a,#c4958f);"></div>
+                  <div class="mock-love__tile mock-love__tile--letter" style="background:#d81b60;">E</div>
+                </div>
+                <div class="mock-love__caption">A poetry collection · Crescent Literary Society</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('love-pink'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Print · Poster Design</span>
+            <h3>LOVE — Poetry Collection Poster (Pink Edition)</h3>
+            <p>Members edition variant of the LOVE poster series, recoloured in vibrant magenta/hot-pink with florals and textured photo tiles. Demonstrates colour system thinking across a consistent design template.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 4: Litrapture Block & Tackle ── -->
+        <article class="project-card" data-category="print">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--litrapture">
+              <div class="mock-litrapture">
+                <div class="mock-litrapture__bg">
+                  <div class="mock-litrapture__cloud mock-litrapture__cloud--1">☁</div>
+                  <div class="mock-litrapture__cloud mock-litrapture__cloud--2">☁</div>
+                  <div class="mock-litrapture__eyebrow">LITRAPTURE '24</div>
+                  <div class="mock-litrapture__title">Block &amp; Tackle</div>
+                  <div class="mock-litrapture__subtitle">· Debate ·</div>
+                  <div class="mock-litrapture__date">20 April 2024</div>
+                  <div class="mock-litrapture__badge">Register Now!</div>
+                  <div class="mock-litrapture__dots">✦ ✦ ✦</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('litrapture'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Print · Event Poster</span>
+            <h3>Litrapture '24 — Block &amp; Tackle Event Poster</h3>
+            <p>Playful event registration poster for a college debate competition. Sky-blue palette with hand-drawn cloud doodles, organic blob shapes, and a whimsical typographic hierarchy — balancing fun with clear CTA.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 5: Depleted Poetry Graphic v1 ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--depleted-v1">
+              <div class="mock-depleted">
+                <div class="mock-depleted__bracket-tl"></div>
+                <div class="mock-depleted__bracket-br"></div>
+                <p class="mock-depleted__title">Depleted</p>
+                <p class="mock-depleted__verse">My heart keeps pacing<br/>As my mind gets tiring.</p>
+                <p class="mock-depleted__verse">I don't know how to get through this,<br/>But I know I will.</p>
+                <p class="mock-depleted__author">~ Arihaam</p>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('depleted-v1'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media</span>
+            <h3>"Depleted" — Poetry Graphic (Light Version)</h3>
+            <p>Moody editorial poetry graphic with corner-bracket framing, script headline, and clean body text over a warm dark photo background. Designed for Crescent Literary Society's social media.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 6: Depleted Poetry Graphic v2 ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--depleted-v2">
+              <div class="mock-depleted mock-depleted--dark">
+                <div class="mock-depleted__bracket-tl"></div>
+                <div class="mock-depleted__bracket-br"></div>
+                <div class="mock-depleted__glass">
+                  <p class="mock-depleted__title">Depleted</p>
+                  <p class="mock-depleted__verse">My heart keeps pacing<br/>As my mind gets tiring.</p>
+                  <p class="mock-depleted__verse">I don't know how to get through this,<br/>But I know I will.</p>
+                  <p class="mock-depleted__author mock-depleted__author--right">~ Arihaam</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('depleted-v2'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media</span>
+            <h3>"Depleted" — Poetry Graphic (Dark Version)</h3>
+            <p>Refined darker iteration of the same poem — desaturated photo treatment with a frosted glass text panel and right-aligned attribution. Demonstrates deliberate design iteration and colour restraint.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 7: 3D Terrain — Pulicat / Chennai ── -->
+        <article class="project-card" data-category="gis">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--terrain-coastal">
+              <div class="mock-terrain mock-terrain--coastal">
+                <div class="mock-terrain__tile">
+                  <div class="mock-terrain__land"></div>
+                  <div class="mock-terrain__sea"></div>
+                  <div class="mock-terrain__coast"></div>
+                </div>
+                <div class="mock-terrain__label mock-terrain__label--tl">Pulicat Lake</div>
+                <div class="mock-terrain__label mock-terrain__label--bl">Chennai</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('terrain-pulicat'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">3D Visualisation · GIS</span>
+            <h3>Pulicat Lake &amp; Chennai — 3D Satellite Terrain</h3>
+            <p>Satellite imagery draped over an extruded 3D terrain tile. Renders the coastal geography of Chennai and Pulicat Lake with clean annotation labels on a neutral studio background.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 8: 3D Terrain — Tirupati / Chittoor ── -->
+        <article class="project-card" data-category="gis">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--terrain-dem">
+              <div class="mock-terrain mock-terrain--dem">
+                <div class="mock-terrain__dem-tile">
+                  <div class="mock-terrain__dem-high"></div>
+                  <div class="mock-terrain__dem-mid"></div>
+                  <div class="mock-terrain__dem-low"></div>
+                </div>
+                <div class="mock-terrain__label mock-terrain__label--tr mock-terrain__label--white">Tirupati</div>
+                <div class="mock-terrain__label mock-terrain__label--ml mock-terrain__label--white">Chittoor</div>
+                <div class="mock-terrain__label mock-terrain__label--mr mock-terrain__label--white">Srikalahasti</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('terrain-tirupati'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">3D Visualisation · GIS</span>
+            <h3>Eastern Ghats — 3D Elevation Model</h3>
+            <p>Warm-toned DEM render of the Eastern Ghats showing Tirupati, Chittoor, and Srikalahasti. Elevation data visualised through a natural red-to-green colour ramp on a sandy warm background.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 9: 3D Terrain — Rayachoty ── -->
+        <article class="project-card" data-category="gis">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--terrain-rocky">
+              <div class="mock-terrain mock-terrain--rocky">
+                <div class="mock-terrain__rocky-tile"></div>
+                <div class="mock-terrain__label mock-terrain__label--mr mock-terrain__label--white">Rayachoty</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('terrain-rayachoty'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">3D Visualisation · GIS</span>
+            <h3>Rayachoty — 3D Rocky Terrain Render</h3>
+            <p>Photorealistic 3D terrain render of Rayachoty's rugged rocky landscape. Muted earthy tones, high-detail surface texture, and minimal single-label annotation — a study in natural cartographic aesthetics.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 10: President Announcement Graphic ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--president">
+              <div class="mock-president">
+                <div class="mock-president__watermark">PRESIDENT</div>
+                <div class="mock-president__watermark mock-president__watermark--2">PRESIDENT</div>
+                <div class="mock-president__watermark mock-president__watermark--3">SIDENT</div>
+                <div class="mock-president__frame"></div>
+                <div class="mock-president__photo-cut"></div>
+                <div class="mock-president__nameplate">
+                  <span>NAQIYA TABASSUM</span>
+                  <div class="mock-president__dots">· · ·</div>
+                </div>
+                <div class="mock-president__badge">CLS</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('president'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media</span>
+            <h3>President Announcement — Crescent Literary Society</h3>
+            <p>Bold typographic announcement poster with repeating "PRESIDENT" watermark, cut-out photo placement, white rectangular frame, and CLS logo badge. Confident editorial aesthetic in monochrome.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 11: Literary Auditions 2023-24 ── -->
+        <article class="project-card" data-category="print">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--auditions">
+              <div class="mock-auditions">
+                <div class="mock-auditions__filmstrip mock-auditions__filmstrip--top">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <div class="mock-auditions__body">
+                  <div class="mock-auditions__ghost">BITS</div>
+                  <div class="mock-auditions__eyebrow">ISTD-C &amp; FINAL YEARS PRESENTS</div>
+                  <div class="mock-auditions__title">Literary Auditions<br/>2023–24</div>
+                  <div class="mock-auditions__tags">WRITING · IMPROV · DEBATE · POP QUIZ</div>
+                  <div class="mock-auditions__detail">📅 23rd September</div>
+                  <div class="mock-auditions__detail">📍 3rd floor, Mech Block</div>
+                </div>
+                <div class="mock-auditions__filmstrip mock-auditions__filmstrip--bottom">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('auditions'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Print · Event Poster</span>
+            <h3>Literary Auditions 2023-24 — Event Poster</h3>
+            <p>Event poster with a Kodak film-strip photo border (real candid photos from society events), ghost "BITS" watermark, dual logo header, script date typography, and QR registration code on a paper-textured background.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 12: Antagonist Educational Graphic ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--antagonist">
+              <div class="mock-antagonist">
+                <div class="mock-antagonist__smoke mock-antagonist__smoke--t"></div>
+                <div class="mock-antagonist__smoke mock-antagonist__smoke--b"></div>
+                <h3 class="mock-antagonist__title">HOW TO CREATE AN<br/>IMPACTFUL ANTAGONIST</h3>
+                <div class="mock-antagonist__jaw">
+                  <div class="mock-antagonist__teeth mock-antagonist__teeth--top">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="mock-antagonist__teeth mock-antagonist__teeth--bot">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="mock-antagonist__phonetic">an·ta·guh·nuhst</div>
+                <div class="mock-antagonist__swipe">Swipe to read →</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('antagonist'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media Series</span>
+            <h3>"How to Create an Impactful Antagonist" — CLS Series</h3>
+            <p>Dark, high-impact carousel cover for CLS's creative writing educational series. Glitch-style typography, smoky black background, illustrated jaw as hero visual, and phonetic pronunciation — dramatic and instantly intriguing.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 13: Supporting Character Cover ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--support-cover">
+              <div class="mock-support-cover">
+                <div class="mock-support-cover__bg"></div>
+                <div class="mock-support-cover__wash"></div>
+                <h3 class="mock-support-cover__title">How to build a</h3>
+                <div class="mock-support-cover__characters">
+                  <div class="mock-support-cover__char mock-support-cover__char--main"></div>
+                  <div class="mock-support-cover__char mock-support-cover__char--2"></div>
+                  <div class="mock-support-cover__char mock-support-cover__char--3"></div>
+                </div>
+                <div class="mock-support-cover__ribbon">
+                  <span>Supporting Character</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('support-cover'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media Series</span>
+            <h3>"How to Build a Supporting Character" — Cover Slide</h3>
+            <p>Warm cream cover slide for the CLS character-building educational series. Illustrated character ensemble with a watercolour pink wash, ribbon banner in deep rose, and an elegant serif + script typographic pairing.</p>
+          </div>
+        </article>
+
+        <!-- ── REAL PROJECT 14: Supporting Character Inner Slide ── -->
+        <article class="project-card" data-category="editorial">
+          <div class="project-card__image">
+            <div class="project-card__mock project-card__mock--support-slide">
+              <div class="mock-support-slide">
+                <div class="mock-support-slide__border-chars">
+                  <div class="mock-support-slide__char mock-support-slide__char--tl"></div>
+                  <div class="mock-support-slide__char mock-support-slide__char--tr"></div>
+                  <div class="mock-support-slide__char mock-support-slide__char--bl"></div>
+                  <div class="mock-support-slide__char mock-support-slide__char--br"></div>
+                </div>
+                <div class="mock-support-slide__panel">
+                  <p>"Supporting characters set the scene by supporting the leads or tipping them off."</p>
+                </div>
+                <div class="mock-support-slide__flowers">✿ ✿ ✿</div>
+              </div>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" class="btn btn--outline btn--sm" onclick="openModal('support-slide'); return false;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Editorial · Social Media Series</span>
+            <h3>"Supporting Characters" — Interior Carousel Slide</h3>
+            <p>Sage-green interior slide from the same series — illustrated character figures border the frame, wildflower accents at the base, and a frosted glass panel centres the educational content. Cohesive and airy.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">What I Offer</p>
+        <h2 class="section__heading">Services</h2>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">▣</div>
+          <h3>Print &amp; Event Collateral</h3>
+          <p>Brochures, conference materials, event posters, and registration flyers — designed with clear information hierarchy and strong visual identity.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">◎</div>
+          <h3>Editorial &amp; Social Media</h3>
+          <p>Poetry graphics, announcement posters, and social content — scroll-stopping visuals that carry both aesthetic and meaning.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">◈</div>
+          <h3>3D Terrain Visualisation</h3>
+          <p>GIS-driven 3D terrain renders — satellite imagery, elevation models, and annotated geographic visualisations built in QGIS and Blender.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">⬡</div>
+          <h3>Club &amp; Community Design</h3>
+          <p>Visual identity and collateral for student organisations and literary societies — consistent design systems across events, announcements, and publications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="tools section" id="tools">
+    <div class="container">
+      <p class="section__label" style="text-align:center;">Tools &amp; Skills</p>
+      <div class="tools__list">
+        <span>Adobe Photoshop</span>
+        <span>Adobe Illustrator</span>
+        <span>Adobe InDesign</span>
+        <span>Canva Pro</span>
+        <span>QGIS</span>
+        <span>Blender</span>
+        <span>3D Terrain Rendering</span>
+        <span>GIS Data Processing</span>
+        <span>Typography</span>
+        <span>Editorial Layout</span>
+        <span>Social Media Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact section" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__text">
+        <p class="section__label">Get in Touch</p>
+        <h2 class="section__heading">Let's create<br /><em>something great</em></h2>
+        <p>Have a project or collaboration in mind? I'd love to connect — whether it's for a club, an event, or a university project.</p>
+        <div class="contact__details">
+          <a href="mailto:naqiya.tabassum@email.com">naqiya.tabassum@email.com</a>
+          <a href="https://linkedin.com/in/naqiyatabassum" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://behance.net/naqiyatabassum" target="_blank" rel="noopener">Behance</a>
+        </div>
+      </div>
+      <form class="contact__form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="project">Project Type</label>
+          <select id="project" name="project">
+            <option value="">Select a service…</option>
+            <option>Brand Identity</option>
+            <option>UI/UX Design</option>
+            <option>Print &amp; Editorial</option>
+            <option>Social Media Design</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        <p class="form__success" id="formSuccess" hidden>✓ Message sent! I'll be in touch soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">Naqiya Tabassum</span>
+      <span class="footer__copy">© 2026 · Naqiya Tabassum · B.S. Abdur Rahman Crescent Institute</span>
+      <div class="footer__socials">
+        <a href="https://behance.net/naqiyatabassum" target="_blank" rel="noopener">Behance</a>
+        <a href="https://linkedin.com/in/naqiyatabassum" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://instagram.com/naqiyadesigns" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── PROJECT MODAL ── -->
+  <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal()"></div>
+
+  <aside class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="project-modal__inner">
+
+      <!-- header bar -->
+      <div class="project-modal__topbar">
+        <div class="project-modal__nav">
+          <button class="modal-nav-btn" id="modalPrev" onclick="navigateModal(-1)" aria-label="Previous project">← Prev</button>
+          <span class="modal-nav-counter" id="modalCounter"></span>
+          <button class="modal-nav-btn" id="modalNext" onclick="navigateModal(1)" aria-label="Next project">Next →</button>
+        </div>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      </div>
+
+      <!-- preview area -->
+      <div class="project-modal__preview" id="modalPreview"></div>
+
+      <!-- content -->
+      <div class="project-modal__content">
+        <div class="project-modal__meta">
+          <span class="project-modal__tag" id="modalTag"></span>
+          <span class="project-modal__year" id="modalYear"></span>
+        </div>
+        <h2 class="project-modal__title" id="modalTitle"></h2>
+        <p class="project-modal__desc" id="modalDesc"></p>
+
+        <div class="project-modal__details">
+          <div class="project-modal__detail-col">
+            <h4>Role</h4>
+            <p id="modalRole"></p>
+          </div>
+          <div class="project-modal__detail-col">
+            <h4>Client / Context</h4>
+            <p id="modalClient"></p>
+          </div>
+          <div class="project-modal__detail-col">
+            <h4>Tools Used</h4>
+            <p id="modalTools"></p>
+          </div>
+        </div>
+
+        <div class="project-modal__highlights" id="modalHighlights"></div>
+
+        <a href="#contact" class="btn btn--primary" onclick="closeModal()">Work With Me →</a>
+      </div>
+
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
