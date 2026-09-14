@@ -30,31 +30,9 @@ Key elements include a QR code–based registration flow, tiered fee structure t
     ],
     previewClass: 'modal-preview--icrams',
     previewContent: `
-      <div class="mp-icrams">
-        <div class="mp-icrams__fold mp-icrams__fold--left">
-          <div class="mp-icrams__fold-label">Registration &amp; Payment</div>
-          <div class="mp-icrams__qr"></div>
-          <div class="mp-icrams__fee-row"><span>Foreign Delegates</span><strong>₹2500</strong></div>
-          <div class="mp-icrams__fee-row"><span>Industry</span><strong>₹1000</strong></div>
-          <div class="mp-icrams__fee-row"><span>Academicians</span><strong>₹800</strong></div>
-          <div class="mp-icrams__fee-row"><span>UG &amp; PG Students</span><strong>₹300</strong></div>
-        </div>
-        <div class="mp-icrams__fold mp-icrams__fold--mid">
-          <div class="mp-icrams__fold-label">Organising Committee</div>
-          <div class="mp-icrams__committee-block"><strong>CHIEF PATRONS</strong><p>Dr. K. Maragathamani · Mr. S.G. Varun Krisana</p></div>
-          <div class="mp-icrams__committee-block"><strong>CONVENOR</strong><p>Mrs. S. Mangai</p></div>
-          <div class="mp-icrams__committee-block"><strong>CO-CONVENORS</strong><p>Mrs. K. Tamil Selvi · Mrs. B. Manjula Devi · Dr. S. Najma Nikkath</p></div>
-        </div>
-        <div class="mp-icrams__fold mp-icrams__fold--right">
-          <div class="mp-icrams__logo-area">
-            <span class="mp-icrams__logo">BMC</span>
-            <span class="mp-icrams__college">BHAKTAVATSALAM MEMORIAL COLLEGE</span>
-          </div>
-          <div class="mp-icrams__conf-title">ICRAMS 2025</div>
-          <div class="mp-icrams__conf-sub">International Conference on<br/>Recent Advancements in<br/>Multidisciplinary Sciences</div>
-          <div class="mp-icrams__date-badge">3rd &amp; 4th March, 2025</div>
-          <div class="mp-icrams__icons">⚛ π 🧬 ⚗ 🔭</div>
-        </div>
+      <div class="mp-icrams-real">
+        <img src="assets/icrams_1.jpg" alt="ICRAMS Brochure Page 1" />
+        <img src="assets/icrams_2.jpg" alt="ICRAMS Brochure Page 2" />
       </div>`
   },
   {
@@ -79,20 +57,7 @@ This is the first of two colour variants (the second being the pink members' edi
     ],
     previewClass: 'modal-preview--love-red',
     previewContent: `
-      <div class="mp-love" style="--lc:#b71c1c;">
-        <div class="mp-love__grid">
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#b71c1c;">L</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#7b0000,#c62828);"></div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#d4a0a0,#f0c0b0);"></div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#8b0000,#d32f2f);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#b71c1c;">O</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#4a0000,#b71c1c);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#b71c1c;">V</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#c0506a,#e88098);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#b71c1c;">E</div>
-        </div>
-        <div class="mp-love__caption">A poetry collection by the office bearers of Crescent Literary Society</div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/love-red.png" alt="love-red project image" /></div>`
   },
   {
     id: 'love-pink',
@@ -116,20 +81,7 @@ This project demonstrates systematic colour thinking: one template, two tones, t
     ],
     previewClass: 'modal-preview--love-pink',
     previewContent: `
-      <div class="mp-love" style="--lc:#d81b60;">
-        <div class="mp-love__grid">
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#d81b60;">L</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#c2185b,#f06292);"></div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#880e4f,#e91e8c);"></div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#ad1457,#f48fb1);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#d81b60;">O</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#b0838a,#d4a0a8);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#d81b60;">V</div>
-          <div class="mp-love__tile mp-love__tile--photo" style="background:linear-gradient(135deg,#a0706a,#c4958f);"></div>
-          <div class="mp-love__tile mp-love__tile--letter" style="background:#d81b60;">E</div>
-        </div>
-        <div class="mp-love__caption">A poetry collection by the members of Crescent Literary Society</div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/love-pink.png" alt="love-pink project image" /></div>`
   },
   {
     id: 'litrapture',
@@ -153,19 +105,7 @@ The layout balances clear registration information (fee, QR code, contact detail
     ],
     previewClass: 'modal-preview--litrapture',
     previewContent: `
-      <div class="mp-litrapture">
-        <div class="mp-lit__cloud mp-lit__cloud--1">☁</div>
-        <div class="mp-lit__cloud mp-lit__cloud--2">☁</div>
-        <div class="mp-lit__eyebrow">LITRAPTURE '24</div>
-        <div class="mp-lit__title">Block &amp; Tackle</div>
-        <div class="mp-lit__sub">· Debate ·</div>
-        <div class="mp-lit__date-pill">On 20 April 2024</div>
-        <div class="mp-lit__fee">Registration Fee: 75₹</div>
-        <div class="mp-lit__cta">Register Now!</div>
-        <div class="mp-lit__blob mp-lit__blob--1"></div>
-        <div class="mp-lit__blob mp-lit__blob--2"></div>
-        <div class="mp-lit__dots">✦ ✦ ✦ ✦</div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/litrapture.png" alt="litrapture project image" /></div>`
   },
   {
     id: 'depleted-v1',
@@ -189,18 +129,7 @@ This is the lighter, high-contrast version of the graphic. The left-side vertica
     ],
     previewClass: 'modal-preview--depleted-v1',
     previewContent: `
-      <div class="mp-depleted mp-depleted--v1">
-        <div class="mp-depleted__bracket-tl"></div>
-        <div class="mp-depleted__bracket-br"></div>
-        <h2 class="mp-depleted__title">Depleted</h2>
-        <div class="mp-depleted__verses">
-          <p>My heart keeps pacing<br/>As my mind gets tiring.</p>
-          <p>With all the fuss around the world,<br/>And the tension built by the world.</p>
-          <p>I don't know how to get through this,<br/>But I know I will get through this.</p>
-          <p>After all, my heart is still pacing,<br/>As my mind gets tiring.</p>
-        </div>
-        <p class="mp-depleted__author">~ Arihaam</p>
-      </div>`
+      <div class="mp-real-img"><img src="assets/depleted-v1.png" alt="depleted-v1 project image" /></div>`
   },
   {
     id: 'depleted-v2',
@@ -224,20 +153,7 @@ The attribution "~ Arihaam" is moved to the right-aligned bottom position — a 
     ],
     previewClass: 'modal-preview--depleted-v2',
     previewContent: `
-      <div class="mp-depleted mp-depleted--v2">
-        <div class="mp-depleted__bracket-tl"></div>
-        <div class="mp-depleted__bracket-br"></div>
-        <div class="mp-depleted__glass">
-          <h2 class="mp-depleted__title">Depleted</h2>
-          <div class="mp-depleted__verses">
-            <p>My heart keeps pacing<br/>As my mind gets tiring.</p>
-            <p>With all the fuss around the world,<br/>And the tension built by the world.</p>
-            <p>I don't know how to get through this,<br/>But I know I will get through this.</p>
-            <p>After all, my heart is still pacing,<br/>As my mind gets tiring.</p>
-          </div>
-          <p class="mp-depleted__author mp-depleted__author--right">~ Arihaam</p>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/depleted-v2.png" alt="depleted-v2 project image" /></div>`
   },
   {
     id: 'terrain-pulicat',
@@ -261,23 +177,7 @@ This project demonstrates the ability to bridge technical GIS data processing wi
     ],
     previewClass: 'modal-preview--terrain-coastal',
     previewContent: `
-      <div class="mp-terrain mp-terrain--coastal">
-        <div class="mp-terrain__tile">
-          <div class="mp-terrain__land"></div>
-          <div class="mp-terrain__sea"></div>
-          <div class="mp-terrain__coast"></div>
-        </div>
-        <div class="mp-terrain__annotation" style="top:28%;left:12%;">
-          <span class="mp-terrain__dot"></span>
-          <span class="mp-terrain__line" style="width:60px;"></span>
-          <span class="mp-terrain__ann-label">Pulicat Lake</span>
-        </div>
-        <div class="mp-terrain__annotation" style="top:52%;left:8%;">
-          <span class="mp-terrain__dot"></span>
-          <span class="mp-terrain__line" style="width:50px;"></span>
-          <span class="mp-terrain__ann-label">Chennai</span>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/terrain-pulicat.png" alt="terrain-pulicat project image" /></div>`
   },
   {
     id: 'terrain-tirupati',
@@ -301,28 +201,7 @@ The warm sandy background and soft directional lighting give the render an appro
     ],
     previewClass: 'modal-preview--terrain-dem',
     previewContent: `
-      <div class="mp-terrain mp-terrain--dem">
-        <div class="mp-terrain__dem-tile">
-          <div class="mp-terrain__dem-high"></div>
-          <div class="mp-terrain__dem-mid"></div>
-          <div class="mp-terrain__dem-low"></div>
-        </div>
-        <div class="mp-terrain__annotation mp-terrain__annotation--white" style="top:22%;right:22%;">
-          <span class="mp-terrain__ann-label">Tirupati</span>
-          <span class="mp-terrain__line" style="width:40px;"></span>
-          <span class="mp-terrain__dot"></span>
-        </div>
-        <div class="mp-terrain__annotation mp-terrain__annotation--white" style="top:44%;left:8%;">
-          <span class="mp-terrain__dot"></span>
-          <span class="mp-terrain__line" style="width:40px;"></span>
-          <span class="mp-terrain__ann-label">Chittoor</span>
-        </div>
-        <div class="mp-terrain__annotation mp-terrain__annotation--white" style="top:36%;right:10%;">
-          <span class="mp-terrain__ann-label">Srikalahasti</span>
-          <span class="mp-terrain__line" style="width:35px;"></span>
-          <span class="mp-terrain__dot"></span>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/terrain-tirupati.png" alt="terrain-tirupati project image" /></div>`
   },
   {
     id: 'terrain-rayachoty',
@@ -346,14 +225,7 @@ The render is intentionally minimal: a single location annotation, no colour ram
     ],
     previewClass: 'modal-preview--terrain-rocky',
     previewContent: `
-      <div class="mp-terrain mp-terrain--rocky">
-        <div class="mp-terrain__rocky-tile"></div>
-        <div class="mp-terrain__annotation mp-terrain__annotation--white" style="top:35%;right:10%;">
-          <span class="mp-terrain__ann-label">Rayachoty</span>
-          <span class="mp-terrain__line" style="width:50px;"></span>
-          <span class="mp-terrain__dot"></span>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/terrain-rayachoty.png" alt="terrain-rayachoty project image" /></div>`
   },
   {
     id: 'president',
@@ -377,21 +249,7 @@ The name is set in bold uppercase sans-serif at the bottom with a dotted rule un
     ],
     previewClass: 'modal-preview--president',
     previewContent: `
-      <div class="mp-president">
-        <div class="mp-president__wm mp-president__wm--1">PRESIDENT</div>
-        <div class="mp-president__wm mp-president__wm--2">PRESIDENT</div>
-        <div class="mp-president__wm mp-president__wm--3">PRESIDENT</div>
-        <div class="mp-president__wm mp-president__wm--4">SIDENT</div>
-        <div class="mp-president__frame"></div>
-        <div class="mp-president__photo-area">
-          <div class="mp-president__silhouette"></div>
-        </div>
-        <div class="mp-president__nameplate">
-          <span>NAQIYA TABASSUM</span>
-          <div class="mp-president__rule">· · · · · · · · · ·</div>
-        </div>
-        <div class="mp-president__badge">CLS<br/><small>SINCE 2004</small></div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/president.jpg" alt="president project image" /></div>`
   },
   {
     id: 'auditions',    title: 'Literary Auditions 2023-24 — Event Poster',
@@ -459,22 +317,7 @@ The phonetic pronunciation "an·ta·guh·nuhst" adds an editorial dictionary ref
     ],
     previewClass: 'modal-preview--antagonist',
     previewContent: `
-      <div class="mp-antagonist">
-        <div class="mp-antagonist__smoke-t"></div>
-        <div class="mp-antagonist__smoke-b"></div>
-        <h2 class="mp-antagonist__title">HOW TO CREATE AN<br/>IMPACTFUL ANTAGONIST</h2>
-        <div class="mp-antagonist__jaw">
-          <div class="mp-antagonist__teeth-row mp-antagonist__teeth-row--top">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <div class="mp-antagonist__teeth-row mp-antagonist__teeth-row--bot">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-        </div>
-        <div class="mp-antagonist__phonetic">an·ta·guh·nuhst</div>
-        <p class="mp-antagonist__body">Antagonists are different from villains — they are not predominantly evil but characters who just don't agree with the protagonist.</p>
-        <div class="mp-antagonist__swipe">Swipe to read →</div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/antagonist.webp" alt="antagonist project image" /></div>`
   },
   {
     id: 'support-cover',
@@ -499,19 +342,7 @@ A deep rose ribbon banner at the bottom carries the slide title in an elegant sc
     ],
     previewClass: 'modal-preview--support-cover',
     previewContent: `
-      <div class="mp-support-cover">
-        <div class="mp-support-cover__wash"></div>
-        <h2 class="mp-support-cover__title">How to build a</h2>
-        <div class="mp-support-cover__ensemble">
-          <div class="mp-support-cover__fig mp-support-cover__fig--a"></div>
-          <div class="mp-support-cover__fig mp-support-cover__fig--b"></div>
-          <div class="mp-support-cover__fig mp-support-cover__fig--c"></div>
-          <div class="mp-support-cover__fig mp-support-cover__fig--d"></div>
-        </div>
-        <div class="mp-support-cover__ribbon">
-          <span>Supporting Character</span>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/support-cover.webp" alt="support-cover project image" /></div>`
   },
   {
     id: 'support-slide',
@@ -536,20 +367,7 @@ The central text sits inside a frosted glass panel (white with low opacity + blu
     ],
     previewClass: 'modal-preview--support-slide',
     previewContent: `
-      <div class="mp-support-slide">
-        <div class="mp-support-slide__chars">
-          <div class="mp-support-slide__fig mp-support-slide__fig--1"></div>
-          <div class="mp-support-slide__fig mp-support-slide__fig--2"></div>
-          <div class="mp-support-slide__fig mp-support-slide__fig--3"></div>
-          <div class="mp-support-slide__fig mp-support-slide__fig--4"></div>
-          <div class="mp-support-slide__fig mp-support-slide__fig--5"></div>
-          <div class="mp-support-slide__fig mp-support-slide__fig--6"></div>
-        </div>
-        <div class="mp-support-slide__panel">
-          <p>"Supporting characters set the scene by supporting the leads or tipping them off."</p>
-        </div>
-        <div class="mp-support-slide__flowers">✿ ✿ ✿</div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/support-slide.webp" alt="support-slide project image" /></div>`
   }
 ];
 
