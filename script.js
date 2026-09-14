@@ -273,26 +273,7 @@ The central content sits on a paper-textured background with a large ghost "BITS
     ],
     previewClass: 'modal-preview--auditions',
     previewContent: `
-      <div class="mp-auditions">
-        <div class="mp-auditions__film mp-auditions__film--top">
-          <span></span><span></span><span></span><span></span><span></span>
-        </div>
-        <div class="mp-auditions__body">
-          <div class="mp-auditions__ghost">BITS</div>
-          <div class="mp-auditions__eyebrow">ISTD-C &amp; FINAL YEARS PRESENTS</div>
-          <h2 class="mp-auditions__title">Literary Auditions<br/>2023–24</h2>
-          <div class="mp-auditions__disciplines">
-            <span>Writing</span><span>Improv</span><span>Debate</span><span>Pop Quiz</span>
-          </div>
-          <div class="mp-auditions__info">
-            <div>📅 &nbsp;23rd September</div>
-            <div>📍 &nbsp;3rd floor, Mech Block</div>
-          </div>
-        </div>
-        <div class="mp-auditions__film mp-auditions__film--bottom">
-          <span></span><span></span><span></span><span></span><span></span>
-        </div>
-      </div>`
+      <div class="mp-real-img"><img src="assets/auditions.jpg" alt="Literary Auditions 2023-24" /></div>`
   },
   {
     id: 'antagonist',
