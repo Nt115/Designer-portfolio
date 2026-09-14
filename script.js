@@ -394,8 +394,7 @@ The name is set in bold uppercase sans-serif at the bottom with a dotted rule un
       </div>`
   },
   {
-    id: 'auditions',
-    title: 'Literary Auditions 2023-24 — Event Poster',
+    id: 'auditions',    title: 'Literary Auditions 2023-24 — Event Poster',
     tag: 'Print · Event Poster',
     year: '2023',
     role: 'Graphic Designer',
@@ -435,6 +434,121 @@ The central content sits on a paper-textured background with a large ghost "BITS
         <div class="mp-auditions__film mp-auditions__film--bottom">
           <span></span><span></span><span></span><span></span><span></span>
         </div>
+      </div>`
+  },
+  {
+    id: 'antagonist',
+    title: '"How to Create an Impactful Antagonist" — CLS Educational Series',
+    tag: 'Editorial · Social Media Series',
+    year: '2023',
+    role: 'Graphic Designer & Content Designer',
+    client: 'Crescent Literary Society — Instagram Educational Series',
+    tools: 'Adobe Photoshop, Canva Pro',
+    desc: `The cover slide for CLS's "Character Building" educational carousel series on Instagram — an initiative to help members improve their creative writing skills.
+
+This slide introduces the concept of an antagonist. The design deliberately breaks from the club's usual warm aesthetic: a pitch-black background, smoke texture at the edges, glitch-style typography with pink and cyan shadows, and a large illustrated jaw with sharp teeth as the hero visual — creating immediate intrigue and visual tension.
+
+The phonetic pronunciation "an·ta·guh·nuhst" adds an editorial dictionary reference detail, and the "Swipe to read →" CTA invites engagement. The contrast between this dark cover and the softer slides that follow is an intentional design choice — hooks the reader before the content delivers.`,
+    highlights: [
+      'Dark atmospheric design — deliberate tonal break from usual CLS palette',
+      'Glitch typography effect — pink and cyan text-shadow offset',
+      'Illustrated jaw/teeth as conceptual hero visual',
+      'Phonetic pronunciation — editorial dictionary reference detail',
+      '"Swipe to read →" CTA drives carousel engagement',
+      'Part of a multi-slide educational content series'
+    ],
+    previewClass: 'modal-preview--antagonist',
+    previewContent: `
+      <div class="mp-antagonist">
+        <div class="mp-antagonist__smoke-t"></div>
+        <div class="mp-antagonist__smoke-b"></div>
+        <h2 class="mp-antagonist__title">HOW TO CREATE AN<br/>IMPACTFUL ANTAGONIST</h2>
+        <div class="mp-antagonist__jaw">
+          <div class="mp-antagonist__teeth-row mp-antagonist__teeth-row--top">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="mp-antagonist__teeth-row mp-antagonist__teeth-row--bot">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="mp-antagonist__phonetic">an·ta·guh·nuhst</div>
+        <p class="mp-antagonist__body">Antagonists are different from villains — they are not predominantly evil but characters who just don't agree with the protagonist.</p>
+        <div class="mp-antagonist__swipe">Swipe to read →</div>
+      </div>`
+  },
+  {
+    id: 'support-cover',
+    title: '"How to Build a Supporting Character" — Cover Slide',
+    tag: 'Editorial · Social Media Series',
+    year: '2023',
+    role: 'Graphic Designer & Content Designer',
+    client: 'Crescent Literary Society — Instagram Educational Series',
+    tools: 'Adobe Illustrator, Adobe Photoshop, Canva Pro',
+    desc: `Cover slide for the "How to Build a Supporting Character" carousel — part of the same CLS character-building educational series as the Antagonist graphic.
+
+The design shifts to a completely different visual language: warm cream background, soft watercolour pink wash, and a collection of illustrated character figures (faceless, stylised) to represent the ensemble nature of supporting characters.
+
+A deep rose ribbon banner at the bottom carries the slide title in an elegant script, contrasting with the serif header above. The illustrated characters — including figures with distinct personality markers (Guy Fawkes mask, sunglasses, hats) — add visual storytelling depth, reinforcing the idea that supporting characters have their own defined identities.`,
+    highlights: [
+      'Warm cream + watercolour pink wash — soft, literary palette',
+      'Illustrated character ensemble — distinct personality markers per figure',
+      'Deep rose ribbon banner with script typography',
+      'Serif + script typographic pairing — editorial warmth',
+      'Visual contrast to the dark Antagonist cover — same series, different register',
+      'Characters have visual identity cues (masks, glasses, hats)'
+    ],
+    previewClass: 'modal-preview--support-cover',
+    previewContent: `
+      <div class="mp-support-cover">
+        <div class="mp-support-cover__wash"></div>
+        <h2 class="mp-support-cover__title">How to build a</h2>
+        <div class="mp-support-cover__ensemble">
+          <div class="mp-support-cover__fig mp-support-cover__fig--a"></div>
+          <div class="mp-support-cover__fig mp-support-cover__fig--b"></div>
+          <div class="mp-support-cover__fig mp-support-cover__fig--c"></div>
+          <div class="mp-support-cover__fig mp-support-cover__fig--d"></div>
+        </div>
+        <div class="mp-support-cover__ribbon">
+          <span>Supporting Character</span>
+        </div>
+      </div>`
+  },
+  {
+    id: 'support-slide',
+    title: '"Supporting Characters" — Interior Carousel Slide',
+    tag: 'Editorial · Social Media Series',
+    year: '2023',
+    role: 'Graphic Designer & Content Designer',
+    client: 'Crescent Literary Society — Instagram Educational Series',
+    tools: 'Adobe Illustrator, Canva Pro',
+    desc: `An interior content slide from the "Supporting Character" carousel series — the slide that delivers the core definition.
+
+The design uses a sage green background with illustrated character figures arranged as a living border frame around the content. The figures are diverse and rendered in flat illustration style — a deliberate choice that emphasises the breadth and variety of supporting characters in storytelling.
+
+The central text sits inside a frosted glass panel (white with low opacity + blur), creating clear legibility against the illustrated background. Wildflower botanical elements at the base of the frame soften the composition. The script typeface inside the panel completes the editorial, journal-like tone of the series.`,
+    highlights: [
+      'Illustrated character border frame — 10+ diverse figures',
+      'Frosted glass text panel — clear hierarchy in a busy composition',
+      'Sage green palette — calm, thoughtful, literary',
+      'Wildflower botanical accents at the base',
+      'Script typeface inside panel — consistent with series voice',
+      'Flat illustration style — accessible, contemporary feel'
+    ],
+    previewClass: 'modal-preview--support-slide',
+    previewContent: `
+      <div class="mp-support-slide">
+        <div class="mp-support-slide__chars">
+          <div class="mp-support-slide__fig mp-support-slide__fig--1"></div>
+          <div class="mp-support-slide__fig mp-support-slide__fig--2"></div>
+          <div class="mp-support-slide__fig mp-support-slide__fig--3"></div>
+          <div class="mp-support-slide__fig mp-support-slide__fig--4"></div>
+          <div class="mp-support-slide__fig mp-support-slide__fig--5"></div>
+          <div class="mp-support-slide__fig mp-support-slide__fig--6"></div>
+        </div>
+        <div class="mp-support-slide__panel">
+          <p>"Supporting characters set the scene by supporting the leads or tipping them off."</p>
+        </div>
+        <div class="mp-support-slide__flowers">✿ ✿ ✿</div>
       </div>`
   }
 ];
